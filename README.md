@@ -10,7 +10,7 @@ On this problem I have completed:
 - [vote] function, which I check if the voter voted to a valid candidate and if the rank is successufully recorded returns true. 
 - [record_preferences] function which updates the global preferences array to add the current voter's preferences
 - [add_pairs] function which add all candidates pairs and checked when the candidates are tied, in which should not be added to the array
-- [sort_pairs] function which sort the pairs array 
+- [sort_pairs] function which sort the pairs array using bubble sort
 - [lock_pairs] function which creates a locked graph, adding all edges as long as would not create a cycle
 - [print_winner] function which prints the winner 
 
