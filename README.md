@@ -1,6 +1,8 @@
 # tideman-election
 Welcome to the CS50 Problem Set Solutions repository! Here, you'll find my solution for one of the problem sets from Harvard's renowned CS50 Introduction to Computer Science course. This problem set involves creating an algorithm that ranks candidates participating in a tideman election. 
 
+NOTE: Please be aware that duplicating this code and submitting it as your own work is a violation of CS50's academic integrity policy, which can be found here: https://cs50.harvard.edu/x/2023/honesty/. I strongly encourage you to thoroughly grasp the course material and independently craft your solution. It's a valuable learning experience!
+
 ## Description
 
 A tideman election is a ranked-choice voting system, which voters can vote in more than one candidate. This system solves the disadvantages of the plurality election system, which does not resolve a tied election. In the tideman election produces a locked graph, where you determine the relation between candidates in a head-to-head matchup, so if one candidate is prefered over another an arrow will be drawn towards the loser. The winner of the election is the source of the graph, so the one that has no arrows pointing at them. 
